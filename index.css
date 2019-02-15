@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Universal*/
+HTML {
+	margin: auto;
+	font-family: "Bauhaus LT Light";
+	background: black;
+	color: white;
+}
+
+/*Header*/
+.Header {
+max-width: 100%;
+display: flex;
+line-height: 1vw;
+padding: 1vw;
+}
+
+.Header #SCP {
+	font-size: 5vw;
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+
+.Header img {
+	border-radius: 10vw;
+	width: 10%;
+	height: 10%;
+}
+
+.Header #SCS {
+	font-size: 1vw;
+	width: 50%;
+	text-align: right;
+	float: right;
+}
+
+/*Nav*/
+nav, nav a {
+	position: relative;
+	font-size: 1vw;
+	word-spacing: 5vw;
+	text-align: center;
+	text-decoration: none;
+	background: white;
+	color: black;
+}
+
+/*Body*/
+.Body {
+	font-family: verdana,arial,helvetica,sans-serif;
+	text-align: center;
+}
+
+.Body h1 {
+	font-size: 3vw;
+}
+
+.Body h2 {
+	font-size: 1vw;
+}
+
+/*Button*/
+button {
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 0.75vw;
+	background: transparent;
+	border: none;
+	color: red;
+}
+
+.active, button {
+	background: black;
+}
+
+.content {
+	display: none;
+}
