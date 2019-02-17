@@ -14,24 +14,25 @@ HTML {
 max-width: 100%;
 display: flex;
 line-height: 1vw;
+padding: 1vw;
 }
 
 .Header #SCP {
-	font-size: 10vw;
-	width: 100%;
+	font-size: 5vw;
+	width: 50%;
 	text-align: left;
 	float: left;
 }
 
 .Header img {
-	border-radius: 0vw;
-	width: 30%;
-	height: 30%;
+	border-radius: 10vw;
+	width: 10%;
+	height: 10%;
 }
 
 .Header #SCS {
-	font-size: 2vw;
-	width: 100%;
+	font-size: 1vw;
+	width: 50%;
 	text-align: right;
 	float: right;
 }
