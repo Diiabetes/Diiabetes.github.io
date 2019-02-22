@@ -1,29 +1,49 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="utf-8">
-<title>SCP: Secure. Contain. Survive.</title>
-<link href="index.css" rel="stylesheet" type="text/css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>SCP: Secure. Contain. Survive.</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
 
-<body>
-<div class="Header">
-  <h1 id="SCP">SCP</h1>
-  <img src="SCS.png" alt="Logo">
-  <section id="SCS">
-    <h2>Secure.</h2>
-    <h2>Contain.</h2>
-    <h2>SURVIVE.</h2>
-  </section>
-</div>
-<nav> <a href="index.html">Home</a> <a href="About.html">About</a> <a href="Downloads.html">Downloads</a> <a href="Contact.html">Contact</a> <a href="FAQ.html">FAQ</a> </nav>
-	<div class="Body">
+  <script>
+    function revealBody() {
+      var x = document.getElementById("content");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+  <body>
+    <header>
+      <h1>SCP</h1>
+      <img src="SCS.png" width="14%" height="14%">
+      <section>
+        <h3>Secure.</h3>
+        <h3>Contain.</h3>
+        <h3>SURVIVE.</h3>
+      </section>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="FAQ.html">FAQ</a>
+    </nav>
   <h1>THIS DOMAIN HAS BEEN SIEZED BY THE GOC</h1>
-  <h2>UNAUTHORIZED ACCESS STRICTLY PROHIBITED OFFENDERS WILL BE TRACKED DETAINED AND/OR NEUTRALIZED</h2>
-  <button class="classified">[LEVEL 3 ACCESS]</button>
+  <h3>UNNAUTHORIZED ACCESS IS PROHIBITED. PERPETRATORS WILL BE HUNTED AND DETAINED.</h3>
+  <button onclick="revealBody">[LEVEL 3 ACCESS REQUIRED]</button>
   <div class="content">
-    <h1>WIP</h1>
+    <h1>WELCOME, AUTHORIZED PERSONNEL</h1>
+    <p>Welcome to the official website for SCP: Secure. Contain. SURVIVE. - (SCP:SCS).
+    SCP:SCS is a VR survival horror game being developed by Thomas ███████ in Unreal Engine 4.</p>
   </div>
-</div>
-</body>
+    <footer>
+      © 2019
+    </footer>
+  </body>
 </html>
