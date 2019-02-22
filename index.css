@@ -1,80 +1,63 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*Universal*/
 HTML {
-	margin: auto;
-	font-family: "Bauhaus LT Light";
+	font-family: verdana,arial,helvetica,sans-serif;
 	background: black;
 	color: white;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+#content button {
+	font-family: verdana,arial,helvetica,sans-serif;
+	color: white;
+	background: transparent;
+	border: none;
 }
 
 /*Header*/
-.Header {
-max-width: 100%;
-display: flex;
-line-height: 1vw;
-padding: 1vw;
+header, header img {
+	font-family: "Bauhaus LT Light";
+	font-size: 3vw;
+	display: flex;
+	line-height: 0;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 100%;
+	padding:0.5vw;
 }
 
-.Header #SCP {
-	font-size: 5vw;
-	width: 50%;
-	text-align: left;
-	float: left;
-}
-
-.Header img {
-	border-radius: 10vw;
-	width: 10%;
-	height: 10%;
-}
-
-.Header #SCS {
-	font-size: 1vw;
-	width: 50%;
-	text-align: right;
-	float: right;
+header h1 {
+	font-size: 10vw;
 }
 
 /*Nav*/
 nav, nav a {
-	position: relative;
-	font-size: 1vw;
-	word-spacing: 5vw;
-	text-align: center;
-	text-decoration: none;
+	padding-top:0.1vw; padding-bottom:0.1vw;
 	background: white;
 	color: black;
+	text-decoration: none;
+	text-align: center;
+	word-spacing: 2vw;
+	font-size: 1vw;
 }
 
 /*Body*/
-.Body {
-	font-family: verdana,arial,helvetica,sans-serif;
-	text-align: center;
-}
-
-.Body h1 {
-	font-size: 3vw;
-}
-
-.Body h2 {
-	font-size: 1vw;
-}
-
-/*Button*/
-button {
-	font-family: verdana,arial,helvetica,sans-serif;
-	font-size: 0.75vw;
-	background: transparent;
-	border: none;
-	color: red;
-}
-
-.active, button {
-	background: black;
-}
-
 .content {
-	display: none;
+	margin-left:10vw; margin-right:10vw;
+}
+
+#lastName:hover span {display:none;}
+#lastName:hover span:before {content:"Harding";}
+
+/*Footer*/
+footer {
+	background: white;
+	color: black;
+	position: absolute;
+		bottom: 0;
+		right: 0;
+	width: 100%;
 }
