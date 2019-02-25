@@ -49,9 +49,6 @@ nav, nav a {
 	margin-left:10vw; margin-right:10vw;
 }
 
-#lastName:hover span {display:none;}
-#lastName:hover span:before {content:"Harding";}
-
 /*Footer*/
 footer {
 	background: white;
