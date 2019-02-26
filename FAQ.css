@@ -1,59 +1,74 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*Universal*/
 HTML {
-	margin: auto;
-	font-family: "Bauhaus LT Light";
+	font-family: verdana,arial,helvetica,sans-serif;
 	background: black;
 	color: white;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  font-weight: bold;
 }
 
 /*Header*/
-.Header {
-max-width: 100%;
-display: flex;
-line-height: 1vw;
-padding: 1vw;
+header, header img {
+	font-family: "Bauhaus LT Light";
+	font-size: 3vw;
+	display: flex;
+	line-height: 0;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 100%;
+	padding:0.5vw;
 }
 
-.Header #SCP {
-	font-size: 5vw;
-	width: 50%;
-	text-align: left;
-	float: left;
-}
-
-.Header img {
-	border-radius: 10vw;
-	width: 10%;
-	height: 10%;
-}
-
-.Header #SCS {
-	font-size: 1vw;
-	width: 50%;
-	text-align: right;
-	float: right;
+header h1 {
+	font-size: 10vw;
 }
 
 /*Nav*/
 nav, nav a {
-	position: relative;
-	font-size: 1vw;
-	word-spacing: 5vw;
-	text-align: center;
-	text-decoration: none;
+	padding-top:0.1vw; padding-bottom:0.1vw;
 	background: white;
 	color: black;
+	text-decoration: none;
+	text-align: center;
+	word-spacing: 2vw;
+	font-size: 1vw;
 }
 
 /*Body*/
 .Body {
-	font-family: verdana,arial,helvetica,sans-serif;
-	text-align: center;
+  margin-left:1vw; margin-right:1vw;
+  text-align: left;
+}
+
+.Body a {
+  color: white;
+}
+
+.Body p {
+  margin-left:1vw; margin-right:1vw;
+  display: none;
 }
 
 .Body h1 {
-	font-size: 3vw;
+  text-align: center;
+}
+
+/*Footer*/
+footer {
+	background: white;
+	color: black;
+	position: absolute;
+		bottom: 0;
+		right: 0;
+	width: 100%;
 }
