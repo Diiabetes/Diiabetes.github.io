@@ -1,24 +1,125 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="utf-8">
-<title>SCP: Secure. Contain. Survive.</title>
-<link href="FAQ.css" rel="stylesheet" type="text/css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>SCP: Secure. Contain. Survive.</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <script>
+    function revealQ1() {
+  var x = document.getElementById("Q1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
-<body>
-<div class="Header">
-  <h1 id="SCP">SCP</h1>
-  <img src="SCS.png" alt="Logo">
-  <section id="SCS">
-    <h2>Secure.</h2>
-    <h2>Contain.</h2>
-    <h2>SURVIVE.</h2>
-  </section>
-</div>
-<nav> <a href="index.html">Home</a> <a href="About.html">About</a> <a href="Downloads.html">Downloads</a> <a href="Contact.html">Contact</a> <a href="FAQ.html">FAQ</a> </nav>
-<div class="Body">
-	<h1>WIP</h1>
-</div>
-</body>
+function revealQ2() {
+  var x = document.getElementById("Q2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function revealQ3() {
+  var x = document.getElementById("Q3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function revealQ4() {
+  var x = document.getElementById("Q4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function revealQ5() {
+  var x = document.getElementById("Q5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function revealQ6() {
+  var x = document.getElementById("Q6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function revealQ7() {
+  var x = document.getElementById("Q7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  </script>
+  
+  <body>
+    <header>
+      <h1>SCP</h1>
+      <img src="SCS.png" width="14%" height="14%">
+      <section>
+        <h3>Secure.</h3>
+        <h3>Contain.</h3>
+        <h3>SURVIVE.</h3>
+      </section>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="FAQ.html">FAQ</a>
+    </nav>
+    <div class="Body">
+  <h1>FAQ</h1>
+      <section>
+        <button onclick="revealQ1()">What's up with 173?</button>
+        <p id="Q1">Due to copyright issues, SCP-173 will look significantly different from the original image. You can read the full explanation <a href="http://www.scp-wiki.net/licensing-guide">here</a>.</p>
+      </section>
+      <section>
+        <button onclick="revealQ2()">Will this game be exclusive to VR?</button>
+        <p id="Q2">When the game first releases, it will be VR exclusive. I do plan however, to make desktop support.</p>
+      </section>
+      <section>
+        <button onclick="revealQ3()">What SCPs are going to be in the game?</button>
+        <p id="Q3">Because the game is still in development I don't have a full list but SCPs 173, 106, 294, 096, 914, and 7143-J are confirmed.</p>
+      </section>
+      <section><button onclick="revealQ4()">What will the price be?</button>
+        <p id="Q4">The full game will cost around $20.</p>
+      </section>
+      <section>
+        <button onclick="revealQ5()">What platforms will the game be available on?</button>
+        <p id="Q5">Windows.</p>
+      </section>
+      <section>
+        <button onclick="revealQ6()">Will the game be multiplayer?</button>
+        <p id="Q6">Not at release, but I would like to see co-op.</p>
+      </section>
+      <section>
+      <button onclick="revealQ7()">Is this an SCP: CB remake?</button>
+        <p id="Q7">No.</p>
+    </section>
+      </div>
+    <footer>
+      © 2019
+    </footer>
+  </body>
 </html>
