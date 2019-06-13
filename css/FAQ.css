@@ -1,0 +1,12 @@
+#content {
+  display: none;
+  text-align: left;
+}
+
+button {
+    color: red !important;
+}
+
+#answer {
+  display: none;
+}

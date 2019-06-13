@@ -7,6 +7,17 @@
 <link href="css/universal.css" rel="stylesheet" type="text/css">
 </head>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("content");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 <body>
 <div class="Header">
   <h1 id="SCP">SCP</h1>
@@ -21,8 +32,8 @@
 	<div class="Body">
   <h1>THIS DOMAIN HAS BEEN SIEZED BY THE GOC</h1>
   <h2>UNAUTHORIZED ACCESS STRICTLY PROHIBITED OFFENDERS WILL BE TRACKED DETAINED AND/OR NEUTRALIZED</h2>
-  <button class="classified">[LEVEL 3 ACCESS]</button>
-  <div class="content">
+  <button class="classified" onclick="myFunction()">[LEVEL 3 ACCESS]</button>
+  <div id="content">
     <h1>WIP</h1>
   </div>
 </div>

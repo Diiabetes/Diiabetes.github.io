@@ -1,25 +1,39 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>SCP: Secure. Contain. Survive.</title>
-<link href="../css/Contact.css" rel="stylesheet" type="text/css">
-<link href="../css/universal.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title>SCP: Secure. Contain. Survive.</title>
+  <link href="../css/Contact.css" rel="stylesheet" type="text/css">
+  <link href="../css/universal.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div class="Header">
-  <h1 id="SCP">SCP</h1>
-  <img src="../imgs/SCS.png" alt="Logo">
-  <section id="SCS">
-    <h2>Secure.</h2>
-    <h2>Contain.</h2>
-    <h2>SURVIVE.</h2>
-  </section>
-</div>
-<nav> <a href="../index.html">Home</a> <a href="About.html">About</a> <a href="Downloads.html">Downloads</a> <a href="Contact.html">Contact</a> <a href="FAQ.html">FAQ</a> </nav>
-<div class="Body">
-	<h1>WIP</h1>
-</div>
+  <div class="Header">
+    <h1 id="SCP">SCP</h1>
+    <img src="../imgs/SCS.png" alt="Logo">
+    <section id="SCS">
+      <h2>Secure.</h2>
+      <h2>Contain.</h2>
+      <h2>SURVIVE.</h2>
+    </section>
+  </div>
+  <nav> <a href="../index.html">Home</a> <a href="About.html">About</a> <a href="Downloads.html">Downloads</a> <a href="Contact.html">Contact</a> <a href="FAQ.html">FAQ</a> </nav>
+  <div class="Body">
+    <h1>Contact</h1>
+    <button onclick="email()" id="email">██████████@gmail.com</button>
+  </div>
+
+  <script>
+    function email() {
+      var x = document.getElementById("email");
+      if (x.innerHTML === "scsgamedev@gmail.com") {
+        x.innerHTML = "██████████@gmail.com";
+      } else {
+        x.innerHTML = "scsgamedev@gmail.com";
+      }
+    }
+  </script>
+
 </body>
 </html>
